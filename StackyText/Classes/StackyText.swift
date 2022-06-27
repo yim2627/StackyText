@@ -173,6 +173,16 @@ public extension UIFont {
 
 @available(iOS 13.0, *)
 public extension NSMutableAttributedString {
+    
+    // e.g.
+    //        stackLabel.textColor = .black
+    //           stackLabel.attributedText = NSMutableAttributedString()
+    //              .text("Noto", fontName: "NotoSansKR", type: .black, dynamic: .title1)
+    //              .text("Sans", fontName: "NotoSansKR", type: .thin, dynamic: .body)
+    
+    // Make sure the font file is included in the project
+    // and the font name is spelled correctly
+    
     func text(
         _ string: String,
         fontName: String,
@@ -194,6 +204,16 @@ public extension NSMutableAttributedString {
         
         return self
     }
+    
+    
+    // e.g.
+    //        stackLabel.textColor = .black
+    //           stackLabel.attributedText = NSMutableAttributedString()
+    //              .colorText("K", fontName: "NotoSansKR", type: .bold, dynamic: .largeTitle, color: .systemBlue)
+    //              .colorText("R", fontName: "NotoSansKR", type: .regular, dynamic: .largeTitle, color: .systemRed)
+    
+    // Make sure the font file is included in the project
+    // and the font name is spelled correctly
     
     func colorText(
         _ string: String,
