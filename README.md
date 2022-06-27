@@ -34,7 +34,7 @@ Enter StackyText URL in Package Dependency
 https://github.com/yim2627/StackyText
 ```
 
-# Usage
+## Usage
 
 ### First, Import the fonts you want to use into your project and Update plist
 
