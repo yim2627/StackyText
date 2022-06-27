@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'StackyText_Example' do
+  pod 'StackyText', :path => '../'
+
+  target 'StackyText_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
