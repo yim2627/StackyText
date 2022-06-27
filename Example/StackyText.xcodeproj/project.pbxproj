@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,7 +20,6 @@
 		A6490F41286979A80070E9D3 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6490F3B286978CF0070E9D3 /* NotoSansKR-Medium.otf */; };
 		A6490F42286979AA0070E9D3 /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6490F3D286978CF0070E9D3 /* NotoSansKR-Regular.otf */; };
 		A6490F43286979AC0070E9D3 /* NotoSansKR-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6490F38286978CE0070E9D3 /* NotoSansKR-Thin.otf */; };
-		A6490F4D2869DA7C0070E9D3 /* StackyText in Frameworks */ = {isa = PBXBuildFile; productRef = A6490F4C2869DA7C0070E9D3 /* StackyText */; };
 		BB38F3F0CD9CBD632634CE97 /* Pods_StackyText_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0F050F3557678E3FA79A06 /* Pods_StackyText_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6490F4D2869DA7C0070E9D3 /* StackyText in Frameworks */,
 				BB38F3F0CD9CBD632634CE97 /* Pods_StackyText_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,7 +196,6 @@
 			);
 			name = StackyText_Example;
 			packageProductDependencies = (
-				A6490F4C2869DA7C0070E9D3 /* StackyText */,
 			);
 			productName = StackyText;
 			productReference = 607FACD01AFB9204008FA782 /* StackyText_Example.app */;
@@ -255,7 +252,6 @@
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
 			packageReferences = (
-				A6490F4B2869DA7C0070E9D3 /* XCRemoteSwiftPackageReference "StackyText" */,
 			);
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
 			projectDirPath = "";
@@ -500,8 +496,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -512,10 +507,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StackyText/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -530,10 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StackyText/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -555,11 +544,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -577,11 +562,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -621,25 +602,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		A6490F4B2869DA7C0070E9D3 /* XCRemoteSwiftPackageReference "StackyText" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/yim2627/StackyText";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.3;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A6490F4C2869DA7C0070E9D3 /* StackyText */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A6490F4B2869DA7C0070E9D3 /* XCRemoteSwiftPackageReference "StackyText" */;
-			productName = StackyText;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }
