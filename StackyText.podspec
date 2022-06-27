@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jiseong' => 'yim2627@gmail.com' }
   s.source           = { :git => 'https://github.com/yim2627/StackyText.git', :tag => s.version.to_s }
-  s.source_files = 'StackyText/Classes/**/*'
+  s.source_files = 'Sources/StackyText/Classes/**/*'
   s.frameworks = 'UIKit'
   s.ios.deployment_target = '13.0'
   s.swift_versions = '5.0'
