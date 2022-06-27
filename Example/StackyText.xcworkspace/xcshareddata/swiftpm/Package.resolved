@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "stackytext",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yim2627/StackyText",
+      "state" : {
+        "revision" : "f61f1a9365b446889f2057e5d85523fb82ca0e08",
+        "version" : "0.1.3"
+      }
+    }
+  ],
+  "version" : 2
+}
