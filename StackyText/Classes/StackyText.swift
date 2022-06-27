@@ -171,6 +171,53 @@ public extension UIFont {
     }
 }
 
+@available(iOS 13.0, *)
 public extension NSMutableAttributedString {
+    func text(
+        _ string: String,
+        fontName: String,
+        type: FontFamily,
+        dynamic: DynamicFont
+    ) -> NSMutableAttributedString {
+        let font = UIFont.withFontFamilyName(
+            name: fontName,
+            type: type,
+            dynamic: dynamic
+        )
+        
+        let attributes: [NSAttributedString.Key: Any] = [.font: font]
+        
+        self.append(NSAttributedString(
+            string: string,
+            attributes: attributes
+        ))
+        
+        return self
+    }
     
+    func colorText(
+        _ string: String,
+        fontName: String,
+        type: FontFamily,
+        dynamic: DynamicFont,
+        color: UIColor
+    ) -> NSMutableAttributedString {
+        let font = UIFont.withFontFamilyName(
+            name: fontName,
+            type: type,
+            dynamic: dynamic
+        )
+        
+        let attributes: [NSAttributedString.Key: Any] = [
+            .font: font,
+            .foregroundColor: color
+        ]
+        
+        self.append(NSAttributedString(
+            string: string,
+            attributes: attributes
+        ))
+        
+        return self
+    }
 }
