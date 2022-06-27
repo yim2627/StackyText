@@ -14,6 +14,12 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		A6490F3E286979A30070E9D3 /* NotoSansKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6490F3A286978CF0070E9D3 /* NotoSansKR-Black.otf */; };
+		A6490F3F286979A50070E9D3 /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6490F3C286978CF0070E9D3 /* NotoSansKR-Bold.otf */; };
+		A6490F40286979A60070E9D3 /* NotoSansKR-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6490F39286978CF0070E9D3 /* NotoSansKR-Light.otf */; };
+		A6490F41286979A80070E9D3 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6490F3B286978CF0070E9D3 /* NotoSansKR-Medium.otf */; };
+		A6490F42286979AA0070E9D3 /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6490F3D286978CF0070E9D3 /* NotoSansKR-Regular.otf */; };
+		A6490F43286979AC0070E9D3 /* NotoSansKR-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6490F38286978CE0070E9D3 /* NotoSansKR-Thin.otf */; };
 		BB38F3F0CD9CBD632634CE97 /* Pods_StackyText_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0F050F3557678E3FA79A06 /* Pods_StackyText_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +35,8 @@
 
 /* Begin PBXFileReference section */
 		0DBA70D1FC0E86D5E616A9C8 /* Pods-StackyText_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackyText_Example.debug.xcconfig"; path = "Target Support Files/Pods-StackyText_Example/Pods-StackyText_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0F4736700FF9BA4F6F6BBE79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		260C7C233691742C6CD20FB6 /* StackyText.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = StackyText.podspec; path = ../StackyText.podspec; sourceTree = "<group>"; };
+		0F4736700FF9BA4F6F6BBE79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		260C7C233691742C6CD20FB6 /* StackyText.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = StackyText.podspec; path = ../StackyText.podspec; sourceTree = "<group>"; };
 		3BFF31E8999EACA725B8AFA4 /* Pods-StackyText_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackyText_Tests.debug.xcconfig"; path = "Target Support Files/Pods-StackyText_Tests/Pods-StackyText_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3E0F050F3557678E3FA79A06 /* Pods_StackyText_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackyText_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* StackyText_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackyText_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +51,13 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7022E2AD2A2EA3368D3B1BDF /* Pods-StackyText_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackyText_Tests.release.xcconfig"; path = "Target Support Files/Pods-StackyText_Tests/Pods-StackyText_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		809558F41433308B046E685E /* Pods_StackyText_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackyText_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D74C2A1A186D672A3CAA59FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A6490F38286978CE0070E9D3 /* NotoSansKR-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Thin.otf"; sourceTree = "<group>"; };
+		A6490F39286978CF0070E9D3 /* NotoSansKR-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Light.otf"; sourceTree = "<group>"; };
+		A6490F3A286978CF0070E9D3 /* NotoSansKR-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Black.otf"; sourceTree = "<group>"; };
+		A6490F3B286978CF0070E9D3 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
+		A6490F3C286978CF0070E9D3 /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
+		A6490F3D286978CF0070E9D3 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
+		D74C2A1A186D672A3CAA59FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F2919BE822904A72F2A866AF /* Pods-StackyText_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackyText_Example.release.xcconfig"; path = "Target Support Files/Pods-StackyText_Example/Pods-StackyText_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +119,12 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A6490F3A286978CF0070E9D3 /* NotoSansKR-Black.otf */,
+				A6490F3C286978CF0070E9D3 /* NotoSansKR-Bold.otf */,
+				A6490F39286978CF0070E9D3 /* NotoSansKR-Light.otf */,
+				A6490F3B286978CF0070E9D3 /* NotoSansKR-Medium.otf */,
+				A6490F3D286978CF0070E9D3 /* NotoSansKR-Regular.otf */,
+				A6490F38286978CE0070E9D3 /* NotoSansKR-Thin.otf */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,7 +174,6 @@
 				3BFF31E8999EACA725B8AFA4 /* Pods-StackyText_Tests.debug.xcconfig */,
 				7022E2AD2A2EA3368D3B1BDF /* Pods-StackyText_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +244,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -246,9 +264,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6490F43286979AC0070E9D3 /* NotoSansKR-Thin.otf in Resources */,
+				A6490F40286979A60070E9D3 /* NotoSansKR-Light.otf in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				A6490F41286979A80070E9D3 /* NotoSansKR-Medium.otf in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				A6490F3E286979A30070E9D3 /* NotoSansKR-Black.otf in Resources */,
+				A6490F42286979AA0070E9D3 /* NotoSansKR-Regular.otf in Resources */,
+				A6490F3F286979A50070E9D3 /* NotoSansKR-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

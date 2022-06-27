@@ -1,0 +1,16 @@
+PODS:
+  - StackyText (0.1.0)
+
+DEPENDENCIES:
+  - StackyText (from `../`)
+
+EXTERNAL SOURCES:
+  StackyText:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  StackyText: 51a9c1804bc92501de95495a7927060d373ed706
+
+PODFILE CHECKSUM: e16b611dccb59191141d2c802aa5d1da87d2a20b
+
+COCOAPODS: 1.11.2

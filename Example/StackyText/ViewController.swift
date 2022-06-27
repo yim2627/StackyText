@@ -7,18 +7,44 @@
 //
 
 import UIKit
+import StackyText
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var blackLabel: UILabel!
+    @IBOutlet weak var boldLabel: UILabel!
+    @IBOutlet weak var lightLabel: UILabel!
+    @IBOutlet weak var mediumLabel: UILabel!
+    @IBOutlet weak var regularLabel: UILabel!
+    @IBOutlet weak var thinLabel: UILabel!
+    @IBOutlet weak var stackLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        UIFont.checkFamilyFontName()
+        
+        blackLabel.text = "NotoSans_Black"
+        blackLabel.textColor = .black
+        blackLabel.font = .withFontFamilyName(name: "NotoSansKR", type: .black, dynamic: .title1)
+        
+        boldLabel.text = "NotoSans_Bold"
+        boldLabel.textColor = .black
+        boldLabel.font = .withFontFamilyName(name: "NotoSansKR", type: .bold, dynamic: .title1)
+        
+        lightLabel.text = "NotoSans_Light"
+        lightLabel.textColor = .black
+        lightLabel.font = .withFontFamilyName(name: "NotoSansKR", type: .light, dynamic: .title1)
+        
+        mediumLabel.text = "NotoSans_Medium"
+        mediumLabel.textColor = .black
+        mediumLabel.font = .withFontFamilyName(name: "NotoSansKR", type: .bold, dynamic: .title1)
+        
+        regularLabel.text = "NotoSans_Regular"
+        regularLabel.textColor = .black
+        regularLabel.font = .withFontFamilyName(name: "NotoSansKR", type: .regular, dynamic: .title1)
+        
+        thinLabel.text = "NotoSans_Thin"
+        thinLabel.textColor = .black
+        thinLabel.font = .withFontFamilyName(name: "NotoSansKR", type: .thin, dynamic: .title1)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 

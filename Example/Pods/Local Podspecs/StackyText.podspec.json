@@ -1,0 +1,22 @@
+{
+  "name": "StackyText",
+  "version": "0.1.0",
+  "summary": "A short description of StackyText.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yim2627/StackyText",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yim2627": "yim2627@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/yim2627/StackyText.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "StackyText/Classes/**/*"
+}

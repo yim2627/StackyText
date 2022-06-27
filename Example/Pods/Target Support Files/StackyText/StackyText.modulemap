@@ -1,0 +1,6 @@
+framework module StackyText {
+  umbrella header "StackyText-umbrella.h"
+
+  export *
+  module * { export * }
+}
