@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "StackyText",
     platforms: [.iOS(.v13)],
-    swiftLanguageVersions: [.v4],
+    swiftLanguageVersions: [.v5],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
