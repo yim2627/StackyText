@@ -17,11 +17,21 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+### CocoaPods
+
 StackyText is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'StackyText'
+```
+
+### Swift Package Manager
+
+Enter StackyText URL in Package Dependency
+
+```
+https://github.com/yim2627/StackyText
 ```
 
 # Usage
