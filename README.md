@@ -24,6 +24,14 @@ pod 'StackyText'
 
 # Usage
 
+### First, Import the fonts you want to use into your project and Update plist
+
+### Make sure the fonts have been added
+
+```swift
+UIFont.checkFamilyFontName()
+```
+
 ### To support dynamic types
 
 ```swift
