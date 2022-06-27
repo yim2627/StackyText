@@ -45,6 +45,13 @@ class ViewController: UIViewController {
         thinLabel.text = "NotoSans_Thin"
         thinLabel.textColor = .black
         thinLabel.font = .withFontFamilyName(name: "NotoSansKR", type: .thin, dynamic: .title1)
+        
+        stackLabel.textColor = .black
+        stackLabel.attributedText = NSMutableAttributedString()
+            .text("Noto", fontName: "NotoSansKR", type: .black, dynamic: .title1)
+            .text("Sans", fontName: "NotoSansKR", type: .thin, dynamic: .body)
+            .colorText("K", fontName: "NotoSansKR", type: .bold, dynamic: .largeTitle, color: .systemBlue)
+            .colorText("R", fontName: "NotoSansKR", type: .regular, dynamic: .largeTitle, color: .systemRed)
     }
 }
 
