@@ -1,5 +1,7 @@
 # StackyText
 
+StackyText supports textBlock like LEGO
+
 [![Version](https://img.shields.io/cocoapods/v/StackyText.svg?style=flat)](https://cocoapods.org/pods/StackyText)
 [![License](https://img.shields.io/cocoapods/l/StackyText.svg?style=flat)](https://cocoapods.org/pods/StackyText)
 [![Platform](https://img.shields.io/cocoapods/p/StackyText.svg?style=flat)](https://cocoapods.org/pods/StackyText)
@@ -79,7 +81,7 @@ stackLabel.attributedText = NSMutableAttributedString()
 
 ## Author
 
-yim2627, yim2627@gmail.com
+Jiseong, yim2627@gmail.com
 
 ## License
 
