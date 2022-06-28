@@ -2,6 +2,7 @@
 
 StackyText supports textBlock like LEGO
 
+[![Swift Package Manager compatible](https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat)](https://github.com/apple/swift-package-manager)
 [![Version](https://img.shields.io/cocoapods/v/StackyText.svg?style=flat)](https://cocoapods.org/pods/StackyText)
 [![License](https://img.shields.io/cocoapods/l/StackyText.svg?style=flat)](https://cocoapods.org/pods/StackyText)
 [![Platform](https://img.shields.io/cocoapods/p/StackyText.svg?style=flat)](https://cocoapods.org/pods/StackyText)
