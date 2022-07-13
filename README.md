@@ -62,7 +62,6 @@ label.adjustsFontForContentSizeCategory = true
 
 label.text = "NotoSans_Black"
 label.textColor = .black
-label.textColor = .black
 label.font = .withFontFamilyName(name: "NotoSansKR", type: .black, dynamic: .title1)
 
 // OR...
